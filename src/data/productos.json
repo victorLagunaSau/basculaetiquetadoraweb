@@ -1,0 +1,181 @@
+[
+  {
+    "codigo": "0101",
+    "nombre": "Jamón de pierna",
+    "precio": 95.3,
+    "linea": "L001",
+    "imagen": null
+  },
+  {
+    "codigo": "0102",
+    "nombre": "Jamón de pavo",
+    "precio": 102.5,
+    "linea": "L001",
+    "imagen": null
+  },
+  {
+    "codigo": "0103",
+    "nombre": "Jamón serrano",
+    "precio": 350.0,
+    "linea": "L001",
+    "imagen": null
+  },
+  {
+    "codigo": "0104",
+    "nombre": "Jamón York",
+    "precio": 85.0,
+    "linea": "L001",
+    "imagen": null
+  },
+  {
+    "codigo": "0105",
+    "nombre": "Jamón de pierna ahumado",
+    "precio": 110.0,
+    "linea": "L001",
+    "imagen": null
+  },
+
+  {
+    "codigo": "0201",
+    "nombre": "Salchicha de Pavo",
+    "precio": 23.8,
+    "linea": "L002",
+    "imagen": null
+  },
+  {
+    "codigo": "0202",
+    "nombre": "Salchicha Frankfurt",
+    "precio": 30.0,
+    "linea": "L002",
+    "imagen": null
+  },
+  {
+    "codigo": "0203",
+    "nombre": "Salchicha Viena",
+    "precio": 28.5,
+    "linea": "L002",
+    "imagen": null
+  },
+  {
+    "codigo": "0204",
+    "nombre": "Salchicha Polaca",
+    "precio": 35.0,
+    "linea": "L002",
+    "imagen": null
+  },
+  {
+    "codigo": "0205",
+    "nombre": "Salchicha Italiana",
+    "precio": 40.0,
+    "linea": "L002",
+    "imagen": null
+  },
+
+  {
+    "codigo": "0401",
+    "nombre": "Diesmillo",
+    "precio": 250.0,
+    "linea": "L004",
+    "imagen": null
+  },
+  {
+    "codigo": "0402",
+    "nombre": "Rib Eye",
+    "precio": 380.0,
+    "linea": "L004",
+    "imagen": null
+  },
+  {
+    "codigo": "0403",
+    "nombre": "New York",
+    "precio": 350.0,
+    "linea": "L004",
+    "imagen": null
+  },
+  {
+    "codigo": "0404",
+    "nombre": "Arrachera",
+    "precio": 280.0,
+    "linea": "L004",
+    "imagen": null
+  },
+  {
+    "codigo": "0405",
+    "nombre": "T-Bone",
+    "precio": 400.0,
+    "linea": "L004",
+    "imagen": null
+  },
+
+  {
+    "codigo": "0301",
+    "nombre": "Pechuga de Pollo",
+    "precio": 120.0,
+    "linea": "L003",
+    "imagen": null
+  },
+  {
+    "codigo": "0302",
+    "nombre": "Pierna de Pollo",
+    "precio": 90.0,
+    "linea": "L003",
+    "imagen": null
+  },
+  {
+    "codigo": "0303",
+    "nombre": "Muslo de Pollo",
+    "precio": 85.0,
+    "linea": "L003",
+    "imagen": null
+  },
+  {
+    "codigo": "0304",
+    "nombre": "Alitas de Pollo",
+    "precio": 150.0,
+    "linea": "L003",
+    "imagen": null
+  },
+  {
+    "codigo": "0305",
+    "nombre": "Milanesa de Pollo",
+    "precio": 130.0,
+    "linea": "L003",
+    "imagen": null
+  },
+
+  {
+    "codigo": "0501",
+    "nombre": "Tocino Ahumado",
+    "precio": 180.0,
+    "linea": "L005",
+    "imagen": null
+  },
+  {
+    "codigo": "0502",
+    "nombre": "Tocino de Pavo",
+    "precio": 190.0,
+    "linea": "L005",
+    "imagen": null
+  },
+  {
+    "codigo": "0503",
+    "nombre": "Panceta Ahumada",
+    "precio": 200.0,
+    "linea": "L005",
+    "imagen": null
+  },
+  {
+    "codigo": "0504",
+    "nombre": "Tocino en Tiras",
+    "precio": 175.0,
+    "linea": "L005",
+    "imagen": null
+  },
+  {
+    "codigo": "0505",
+    "nombre": "Tocino sin Sal",
+    "precio": 185.0,
+    "linea": "L005",
+    "imagen": null
+  }
+]

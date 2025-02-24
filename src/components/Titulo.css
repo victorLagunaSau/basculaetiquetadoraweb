@@ -1,0 +1,42 @@
+/* Contenedor principal (Navbar) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra inferior ligera */
+  width: 100%;
+  position: fixed; /* Fija la barra en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Nombre de la aplicación (izquierda) */
+.nombre-app {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003366; /* Azul oscuro */
+}
+
+/* Nombre de la tienda (centro) */
+.nombre-tienda {
+  font-size: 28px; /* Más grande */
+  font-weight: bold;
+  color: #333; /* Gris oscuro */
+  flex-grow: 1; /* Ocupa el espacio disponible */
+  text-align: center; /* Centrado */
+}
+
+/* Logo (derecha) */
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background: white;
+  padding: 5px 15px; /* Más padding para evitar que se corte el texto */
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  white-space: nowrap; /* Evita que el texto se corte */
+}

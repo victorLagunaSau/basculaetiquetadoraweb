@@ -1,0 +1,107 @@
+/* Estilos generales */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #c2e9fb, #a1c4fd);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Módulo 1: Título */
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h1 {
+  font-size: 32px;
+  color: #003366;
+}
+
+.titulo h2 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Módulo 2: Productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.boton-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.boton-producto:hover {
+  transform: scale(1.05);
+}
+
+.boton-producto span {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Módulo 3: Información inferior */
+.informacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.peso {
+  text-align: center;
+}
+
+.peso h2 {
+  font-size: 28px;
+  color: #007bff;
+}
+
+.detalle-producto {
+  text-align: center;
+}
+
+.detalle-producto p {
+  font-size: 18px;
+  color: #555;
+}
+
+.boton-imprimir {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+.boton-imprimir:hover {
+  background: #0056b3;
+}
