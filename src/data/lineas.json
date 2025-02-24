@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Jamónes",
+    "linea": "L001"
+  },
+  {
+    "nombre": "Salchichas",
+    "linea": "L002"
+  },
+  {
+    "nombre": "Pollo",
+    "linea": "L003"
+  },
+  {
+    "nombre": "Res",
+    "linea": "L004"
+  },
+  {
+    "nombre": "Puerco",
+    "linea": "L005"
+  }
+]
