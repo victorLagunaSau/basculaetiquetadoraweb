@@ -42,7 +42,6 @@ app.get("/peso", (req, res) => {
   // Leer el peso desde el puerto serie
   serialPort.once("data", (data) => {
     const peso = data.toString().trim();
-    console.log("Peso recibido:", peso);
     res.json({ peso });
   });
 });

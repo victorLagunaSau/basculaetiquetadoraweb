@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./css/styles.css"; // Importa el archivo CSS
 import Productos from "./prods/Productos"; // Importa el componente Productos
 import Titulo from "./components/Titulo"; // Importa el componente Titulo
+import Etiqueta from "./components/Etiqueta"; // Importa el componente Etiqueta
 
 function App() {
   const [peso, setPeso] = useState("0.000 kg"); // Estado para almacenar el peso
   const [productoSeleccionado, setProductoSeleccionado] = useState(null); // Estado para el producto seleccionado
   const [precioCalculado, setPrecioCalculado] = useState(0); // Estado para el precio calculado
+  const [mostrarEtiqueta, setMostrarEtiqueta] = useState(false); // Estado para mostrar/ocultar la etiqueta
 
   // Función para obtener el peso desde el backend
   const obtenerPeso = async () => {
@@ -43,6 +45,20 @@ function App() {
     setPrecioCalculado(precio);
   };
 
+  // Función para mostrar la etiqueta
+  const handleImprimir = () => {
+    if (productoSeleccionado) {
+      setMostrarEtiqueta(true);
+    } else {
+      alert("Selecciona un producto antes de imprimir.");
+    }
+  };
+
+  // Función para cerrar la etiqueta
+  const cerrarEtiqueta = () => {
+    setMostrarEtiqueta(false);
+  };
+
   return (
     <div className="container">
       {/* Módulo 1: Título */}
@@ -69,8 +85,19 @@ function App() {
               : "Selecciona un producto para calcular el precio"}
           </p>
         </div>
-        <button className="boton-imprimir">Imprimir</button>
+        <button className="boton-imprimir" onClick={handleImprimir}>
+          Imprimir
+        </button>
       </div>
+
+      {/* Popup de la etiqueta */}
+      {mostrarEtiqueta && (
+        <Etiqueta
+          producto={productoSeleccionado}
+          peso={peso}
+          onClose={cerrarEtiqueta}
+        />
+      )}
     </div>
   );
 }
